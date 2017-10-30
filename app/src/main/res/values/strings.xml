@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CollegeManagent</string>
+    <string name="title_home">Home</string>
+    <string name="title_attendance">Attendance</string>
+    <string name="title_events">Events</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="mark_attendance_title">Hello There</string>
+
+
+    <!-- App Variables -->
+    <string name="className"> CSE -A </string>
+
+
+
+
+    <!-- Constants -->
+    <string name="constant_mark_attendance">Marking Attendance for </string>
+    <string name="constant_markfullattendance">Mark Full Attendance</string>
+    <string name="constant_button_markAttendance">Mark Attendance</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_attendanceTitle">PLACEHOLDER_ATTENDANCE_TITLE</string>
+
+
+    <!-- Page Titles -->
+    <string name="title_fragment_attendance">Attendance</string>
+    <string name="title_fragment_home">Home</string>
+    <string name="title_fragment_events">Events</string>
+</resources>
