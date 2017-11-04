@@ -124,7 +124,7 @@ public class Attendance extends Fragment {
                 }
 
                 // building the Webservice Call
-                String serviceURL = "https://ygjfnohdmj.localtunnel.me/markAttendance";
+                String serviceURL = "https://avghjexefi.localtunnel.me/markAttendance";
                 RestOperation restOperation = new RestOperation();
                 restOperation.newInstance(view.getContext(), data.toString());
                 restOperation.execute(serviceURL);
@@ -283,7 +283,7 @@ public class Attendance extends Fragment {
             progressDialog.show();
 
             try {
-                data += "&"+ URLEncoder.encode("data", "UTF-8") + "-"+markedAttendance_data;
+                data += "&"+ URLEncoder.encode("data", "UTF-8") + "="+markedAttendance_data;
             } catch (UnsupportedEncodingException e ){
                 // do nothing
             }
