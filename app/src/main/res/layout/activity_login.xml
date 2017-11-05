@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context="com.collegeprojects.ankur.collegemanagent.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        app:srcCompat="@drawable/ic_i_touch_id" />
+
+    <TextView
+        android:id="@+id/id_text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/constant_login"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/id_et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_text_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableTint="@android:color/white"
+        android:ems="10"
+        android:foregroundTint="@android:color/white"
+        android:hint="Username"
+        android:inputType="text|textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/id_et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_et_username"
+        android:layout_alignStart="@+id/id_et_username"
+        android:layout_below="@+id/id_et_username"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableTint="@android:color/white"
+        android:ems="10"
+        android:foregroundTint="@android:color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/id_button_login"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/constant_login"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/id_link_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:clickable="true"
+        android:text="@string/constant_register"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

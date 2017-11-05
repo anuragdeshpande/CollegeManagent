@@ -32,6 +32,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation 'com.android.support:cardview-v7:26.1.0'
 
-     //https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    //https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
 
 }

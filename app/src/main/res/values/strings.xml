@@ -10,14 +10,15 @@
 
     <!-- App Variables -->
     <string name="className"> CSE -A </string>
-
-
+    <string name="serviceDomain">eyiypmzabl</string>
 
 
     <!-- Constants -->
     <string name="constant_mark_attendance">Marking Attendance for </string>
     <string name="constant_markfullattendance">Mark Full Attendance</string>
     <string name="constant_button_markAttendance">Mark Attendance</string>
+    <string name="constant_login">Login</string>
+    <string name="constant_register">Register</string>
 
     <!-- Placeholders -->
     <string name="placeholder_attendanceTitle">PLACEHOLDER_ATTENDANCE_TITLE</string>
@@ -27,4 +28,18 @@
     <string name="title_fragment_attendance">Attendance</string>
     <string name="title_fragment_home">Home</string>
     <string name="title_fragment_events">Events</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 </resources>

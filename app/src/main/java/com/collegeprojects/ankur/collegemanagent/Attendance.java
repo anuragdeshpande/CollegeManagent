@@ -124,12 +124,13 @@ public class Attendance extends Fragment {
                 }
 
                 // building the Webservice Call
-                String serviceURL = "https://avghjexefi.localtunnel.me/markAttendance";
+                String domain = getString(R.string.serviceDomain);
+                String serviceURL = "https://"+domain+".localtunnel.me/markAttendance";
                 RestOperation restOperation = new RestOperation();
                 restOperation.newInstance(view.getContext(), data.toString());
                 restOperation.execute(serviceURL);
-                String[] array_markedAttendance = markedAttendance.toArray(new String[markedAttendance.size()]);
-                System.out.println("Final Attendance Size: "+array_markedAttendance.length);
+
+                // continue work on attendance
             }
         });
 
